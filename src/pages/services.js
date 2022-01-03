@@ -78,11 +78,10 @@ const Services = () => {
         "
       />
 
-      <Divider />
       <Block
         darkBackground
         image={babyFoot}
-        title="What doulas don’t Do:
+        title="What doulas don’t do:
         "
         subtitle="Doulas are not medical professionals."
         text=" They do not perform clinical tasks, nor do they provide any medical advise or diagnosis. Doulas do not make any decision for the client and do not pressure clients into making any decision. No catching the baby, no taking over the partner’s role. No shift changes. They stay by the birthing person’s side indefinitely (although some doulas may call in their back-up after 12-24 hours.)
@@ -100,6 +99,7 @@ const Services = () => {
         author="Evidence on: Doulas by Rebecca Dekker PhD, RN (2019) "
         source="https://evidencebasedbirth.com/the-evidence-for-doulas/"
       />
+      <Divider />
       <Footer />
     </main>
   );

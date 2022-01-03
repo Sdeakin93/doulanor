@@ -84,10 +84,11 @@ const Services = () => {
         image={babyFoot}
         title="What doulas don’t Do:
         "
-        subtitle="Doulas are not medical professionals. They do not perform clinical tasks, nor do they provide any medical advise or diagnosis. Doulas do not make any decision for the client and do not pressure clients into making any decision. No catching the baby, no taking over the partner’s role. No shift changes. They stay by the birthing person’s side indefinitely (although some doulas may call in their back-up after 12-24 hours.)
+        subtitle="Doulas are not medical professionals."
+        text=" They do not perform clinical tasks, nor do they provide any medical advise or diagnosis. Doulas do not make any decision for the client and do not pressure clients into making any decision. No catching the baby, no taking over the partner’s role. No shift changes. They stay by the birthing person’s side indefinitely (although some doulas may call in their back-up after 12-24 hours.)
+       
         "
-        text="Bottom line is, continuous labor support is the most important ad basic need of the birthing person. Providing it is risk-free and highly effective. Evidence show that having a doula in your labor support team helps with:
-        "
+        subtext=" Bottom line is, continuous labor support is the most important and basic need of the birthing person. Providing it is risk-free and highly effective. Evidence show that having a doula in your labor support team helps with:"
         listTitle="Reduce the risk of C-section by 25-39%"
         point1="Increase likelihood of spontaneous vaginal birth by 8-15%"
         point2="Reduce the use of pain medication in labor by 10%"

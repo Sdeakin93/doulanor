@@ -60,8 +60,9 @@ const SQuote = styled.div`
   font-size: 0.75rem;
   font-style: italic;
   background-color: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
   opacity: 0.8;
-  padding: 0.5rem;
   display: block;
   color: black;
   a {
@@ -95,6 +96,7 @@ const Block = ({
   source,
   priceLink,
   noPadding,
+  subtext,
 }) => {
   return (
     <SImageBlock
@@ -108,6 +110,7 @@ const Block = ({
         {!!title ? <h1>{title}</h1> : null}
         {!!subtitle ? <h3>{subtitle}</h3> : null}
         {!!text ? <p>{text}</p> : null}
+        {!!subtext ? <p>{subtext}</p> : null}
         <br />
 
         {!!listTitle ? (

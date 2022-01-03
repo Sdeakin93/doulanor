@@ -4,6 +4,7 @@ import Block from "../components/Block";
 import Footer from "../components/Footer";
 import "../styles.css";
 import header from "../media/header.jpg";
+
 const IndexPage = () => {
   return (
     <main className="index-page">

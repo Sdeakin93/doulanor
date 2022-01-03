@@ -98,6 +98,8 @@ const Block = ({
   priceLink,
   noPadding,
   subtext,
+  paragraph1,
+  paragraph2,
 }) => {
   return (
     <SImageBlock
@@ -112,6 +114,8 @@ const Block = ({
         {!!subtitle ? <h3>{subtitle}</h3> : null}
         {!!text ? <p>{text}</p> : null}
         {!!subtext ? <p>{subtext}</p> : null}
+        {!!paragraph1 ? <p>{paragraph1}</p> : null}
+        {!!paragraph2 ? <p>{paragraph2}</p> : null}
         <br />
 
         {!!listTitle ? (

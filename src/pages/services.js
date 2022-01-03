@@ -55,19 +55,38 @@ const Services = () => {
         title="Why hire a doula?"
         text="
         Doula is Greek for “woman who serves.” Today, “doula” refers to a professional trained to provide emotional, physical and informational support to people throughout their pregnancy, birth and early postpartum period.
-        "
+"
       />
       <Block
         darkBackground
         image={babyFoot}
         title="How many people use these doulas?
+
         "
         text="According to a 2012 survey, taking place in the United States, 6% of birthing people said they used a doula during childbirth. This is a 50% increase from the 3% in 2006. Out of those who didn’t have a doula, 27% said they would’ve liked to have a doula.
         "
       />
+      <Block
+        paddingTop
+        imageRight
+        image={babySmile}
+        subtitle="Doulas provide physical, emotional, informational support as well as advocacy for their client(s).
+
+        "
+        title="What do doulas provide?
+        "
+        text="Physical support is important because it helps the birthing person maintain a sense of control, comfort and confidence. Some aspects of physical support provided by a doula include: soothing with touch, whether it be with massage or counter pressure; helping to create a warm calming environment, such as dimming lights; assisting with hydrotherapy; applying warm or cold; assisting the birthing person in walking to and from the bathroom; giving ice chips, food, and drinks.
+        "
+        subtext="Emotional support helps the birthing person feel cared for and feel a sense of pride and empowerment after birth. Doulas may provide the following examples: continuous presence; reassurance; encouragement; praise; helping birthing person see themselves or their situation more positively; keep company; showing a caring attitude; mirroring—calmly describing what the birthing person is experiencing and echoing back the same feelings and intensity; accepting what the birthing person wants; helping the birthing person and partner work through fears and self-doubt; debriefing after birth—listening to the mother with empathy.
+        "
+        paragraph1="Informational support helps help the birthing person and their partner informed about what’s going on with the course of labor, as well as provides them with access to evidence-based information about birth options. Aspects of informational support include: guiding the birthing person and their partner through labor; suggesting techniques in labor, such as breathing, relaxation techniques, movement, and positioning (both with or without epidural); helping them find evidence-based information about different options in pregnancy and childbirth; helping explain medical procedures before or as they occur; helping partner understand what’s going on with their loved one’s labor.
+        "
+        paragraph2="Advocacy can take many forms—most of which do not include speaking on behalf of the client. Some examples of advocacy that doulas have described include: encouraging the birthing person or their partner to ask questions and verbalize their preferences; asking the birthing person what they want; supporting the birthing person’s decision; amplifying the birthing person’s voice she is dismissed, ignored, or not heard; creating space and time form the birthing family so that they can ask questions, gather evidence-based information, and make decisions without feeling pressured; facilitating communication between parents and care providers; teaching the birthing parents positive communication techniques. 
+        "
+      />
 
       <Block
-        imageRight
+        darkBackground
         image={babyFoot}
         title="What doulas don’t do:
         "

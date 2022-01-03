@@ -10,7 +10,12 @@ const ContactPage = () => {
 
       <div className="container">
         <h2>Get in Touch</h2>
-        <form name="contact" method="POST" data-netlify="true">
+        <form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          data-netlify-recaptcha="true"
+        >
           <p>
             <label>
               Name: <input type="text" name="name" />
@@ -47,8 +52,9 @@ const ContactPage = () => {
               Message: <textarea name="message"></textarea>
             </label>
           </p>
+          <div data-netlify-recaptcha="true"></div>
           <div class="center">
-            <input type="submit" value="Submit" />
+            <button type="submit" value="Submit" />
           </div>
         </form>
       </div>

@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Merriweather", serif;
+  background: white;
+  margin: 0;
+}
+.main {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+  color: black;
+  background-color: #ffe5d9;
+  max-width: 100%;
+  text-align: center;
+  overflow: hidden;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute, bottom;
+}
+.main {
+  margin-bottom: -50px;
+  min-height: 100%;
+  height: 50px;
+}
+.myButton {
+  background-color: black;
+  border-radius: 33px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 10px;
+  text-decoration: none;
+  font-family: "Merriweather", serif;
+}
+.myButton:hover {
+  color: white;
+}
+.myButton:active {
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  max-width: 100%;
+  background-color: #f8edeb;
+  top: 0px;
+  left: 0;
+  right: 0;
+}
+
+.linkStyles {
+  padding-top: 10px;
+  margin-left: auto;
+  line-height: 154px;
+  padding-right: 2rem;
+}
+
+.links {
+  padding: 21px 14px;
+  color: black;
+  text-decoration: none;
+}
+
+.page {
+  color: #232129;
+  max-width: 100%;
+}
+.heading {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: auto;
+}
+
+.description {
+  color: #232129;
+  font-weight: italic;
+}
+.header {
+  display: grid;
+}
+.header-image {
+  max-width: 100%;
+  opacity: 0.75;
+}
+
+.section {
+  color: black;
+  background-color: white;
+  padding: 5rem;
+  text-align: left;
+  display: flex;
+  margin-top: 2rem;
+  margin: 0 auto;
+}
+.section-box {
+  color: black;
+  padding-top: 20rem;
+  padding-bottom: 10rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  text-align: left;
+  display: grid;
+  margin: 0 auto;
+}
+.section-box img {
+  display: inline;
+  margin: 0 auto;
+  width: auto;
+  border-radius: 50%;
+}
+
+.section-text {
+  color: black;
+}
+
+.social-links {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  padding: 10px;
+}
+
+.social-links img {
+  filter: grayscale(1);
+  margin: 1rem;
+}
+
+.footer-links {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.footer-links links {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.contact-box {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 10px;
+  opacity: 0.75;
+  width: 100%;
+  text-align: left;
+}
+
+.contact-text {
+  text-align: center;
+}
+
+.container {
+  padding: 12px 24px 24px 24px;
+  margin: 48px 12px;
+  border-radius: 4px;
+}
+
+/* Add styles to 'label' selector */
+label {
+  font-size: 0.85em;
+  margin-left: 12px;
+}
+
+/* Add styles to 'input' and 'textarea' selectors */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* Add styles to show 'focus' of selector */
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border: 1px solid green;
+}
+
+/* Add styles to the submit button */
+input[type="submit"] {
+  margin: 0 auto;
+  outline: 0;
+  color: white;
+  border: 0;
+  padding: 12px 24px;
+  border-radius: 4px;
+  transition: all ease-in-out 0.1s;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background: white;
+}
+
+/* Add styles for 'focus' property */
+input[type="submit"]:focus {
+  background: black;
+  color: whitesmoke;
+}
+
+/* Style 'hover' property */
+input[type="submit"]:hover {
+  background: #2196f3;
+}
+
+/* Align items to center of the 'div' with the class 'center' */
+.center {
+  text-align: center;
+}
+.center input {
+  background: black;
+  color: white;
+  border-radius: 33px;
+  font-size: 17px;
+  font-family: "Merriweather", serif;
+}
+
+.service-block--inner {
+  padding-bottom: 2rem;
+}
+
+.intro {
+  color: black;
+  padding: 5rem;
+  text-align: left;
+  margin-top: 2rem;
+  margin: 0 auto;
+  max-width: 50%;
+}
+.acknowledgement {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.service-box {
+  color: white;
+  background-color: #622e54;
+  padding: 5rem;
+}
+
+.service-block {
+  display: flex;
+  text-align: center;
+}
+.column {
+  width: 100%;
+  text-align: center;
+  background-color: #622e54;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+@media (min-width: 48em) {
+  .column {
+    float: left;
+    width: 33.33%;
+    height: 100%;
+  }
+  /* Stops the float property from affecting content after the columns */
+  .columns:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.service-container {
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    display: grid;
+    justify-content: center;
+  }
+  .nav img {
+    padding: 1rem;
+  }
+  .linkStyles {
+    line-height: 50px;
+    padding: 1rem;
+  }
+  .section-box {
+    padding: 2rem;
+  }
+  .intro-container {
+    display: inherit;
+  }
+
+  .intro-container img {
+    max-width: 100%;
+  }
+
+  .column ul {
+    text-align: left;
+  }
+}
+
+.intro-container {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 20rem;
+  max-width: 100%;
+  padding-bottom: 3.3vmax;
+}
+.intro-container img {
+  max-width: 50%;
+  margin: 2rem;
+}
+
+.intro-text {
+  display: block;
+  text-align: center;
+}

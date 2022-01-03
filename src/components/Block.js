@@ -53,6 +53,7 @@ const SPrice = styled.div`
   bottom: 0;
   a {
     color: black;
+    text-decoration: none;
   }
 `;
 

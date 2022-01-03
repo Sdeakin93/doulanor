@@ -33,7 +33,6 @@ const Services = () => {
           listTitle="free one hour consultation"
           point1="one prenatal visits"
           point2="sibling care during birth"
-          point3=" "
           priceLink="/contact"
         />
         <Block
@@ -43,12 +42,10 @@ const Services = () => {
           price="$40/hr"
           listTitle="blocks of 4 hours to be used on weekends throughout the first
           month postpartum"
-          point3=" "
           priceLink="/contact"
         />
       </Splits>
       <Block dark buttonLink={`/contact`} buttonText="Let's work together" />
-      <Divider />
       <Block
         paddingTop
         imageRight
@@ -68,18 +65,9 @@ const Services = () => {
         text="According to a 2012 survey, taking place in the United States, 6% of birthing people said they used a doula during childbirth. This is a 50% increase from the 3% in 2006. Out of those who didn’t have a doula, 27% said they would’ve liked to have a doula.
         "
       />
-      <Block
-        noPadding
-        imageRight
-        image={babySmile}
-        title="What do doulas provide?
-        "
-        text="Doulas provide physical, emotional, informational support as well as advocacy for their client(s).
-        "
-      />
 
       <Block
-        darkBackground
+        imageRight
         image={babyFoot}
         title="What doulas don’t do:
         "

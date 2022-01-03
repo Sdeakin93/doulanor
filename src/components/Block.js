@@ -104,7 +104,7 @@ const Block = ({
       darkBackground={darkBackground}
       noPadding={noPadding}
     >
-      {!!image ? <img src={image} alt={alt} /> : null}f
+      {!!image ? <img src={image} alt={alt} /> : null}
       <SImageText centreText={centreText}>
         {!!pretitle ? <i>{pretitle}</i> : null}
         {!!title ? <h1>{title}</h1> : null}

@@ -1,6 +1,7 @@
 import * as React from "react";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
+import { Link } from "gatsby";
 import "../styles.css";
 
 const ContactPage = () => {
@@ -54,7 +55,9 @@ const ContactPage = () => {
           </p>
           <div data-netlify-recaptcha="true"></div>
           <div class="center">
-            <button type="submit" value="Submit" />
+            <Link to="/thanks">
+              <input type="submit" value="Submit" />
+            </Link>
           </div>
         </form>
       </div>

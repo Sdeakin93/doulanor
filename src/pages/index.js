@@ -3,7 +3,6 @@ import Nav from "../components/Nav";
 import Block from "../components/Block";
 import Footer from "../components/Footer";
 import "../styles.css";
-import styled from "styled-components";
 import header from "../media/header.jpg";
 
 const IndexPage = () => {

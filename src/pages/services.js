@@ -99,7 +99,6 @@ const Services = () => {
         author="Evidence on: Doulas by Rebecca Dekker PhD, RN (2019) "
         source="https://evidencebasedbirth.com/the-evidence-for-doulas/"
       />
-      <Divider />
       <Footer />
     </main>
   );

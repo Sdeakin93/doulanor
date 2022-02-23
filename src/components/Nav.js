@@ -9,7 +9,7 @@ const Nav = () => {
     <div className="whole-container">
       <div className="nav">
         <Link to="/">
-          <img src={logo} alt="doulanor logo" height="150px"></img>
+          <img src={logo} alt="doulanor logo" height="250px"></img>
         </Link>
         <div className="linkStyles">
           <Link className="links" to="/about">

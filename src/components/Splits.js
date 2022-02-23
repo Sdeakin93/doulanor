@@ -4,16 +4,14 @@ import styled from "styled-components";
 const SColumnBlock = styled.div`
   width: 100%;
   text-align: center;
-  color: white;
   padding-top: 1rem;
   padding-bottom: 1rem;
   display: grid;
   grid-template-columns: 33% 33% 33%;
   margin: 0 auto;
   max-width: 100%;
-  background-color: ${(p) => (p.darkBackground ? "#FCD5CE" : "white")};
-  color: ${(p) => (p.darkBackground ? "black" : "black")};
-
+  background-color: ${(p) => (p.darkBackground ? "#735c4b" : "white")};
+  color: white;
   @media screen and (max-width: 768px) {
     display: block;
     text-align: center;

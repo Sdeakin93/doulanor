@@ -8,6 +8,7 @@ const SList = styled.div`
   text-align: left;
   margin: 0 auto;
   max-width: 100%;
+  color: white;
   @media screen and (max-width: 768px) {
     display: grid;
     text-align: left;

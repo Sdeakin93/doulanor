@@ -10,8 +10,8 @@ const SImageBlock = styled.div`
   max-width: 100%;
   padding-bottom:: ${(p) => (p.noPadding ? "3.3vmax" : "0")};
   flex-direction: ${(p) => (p.imageRight ? "row-reverse" : "row")};
-  background-color: ${(p) => (p.darkBackground ? "#FCD5CE" : "white")};
-  color: ${(p) => (p.darkBackground ? "black" : "black")};
+  background-color: ${(p) => (p.darkBackground ? "#735c4b" : "white")};
+  color: ${(p) => (p.darkBackground ? "white" : "black")};
   img {
     max-width: 45%;
     margin: 2rem;
@@ -51,8 +51,9 @@ const SImageText = styled.div`
 const SPrice = styled.div`
   font-size: 1.25rem;
   bottom: 0;
+  color: white;
   a {
-    color: black;
+    color: white;
     text-decoration: none;
   }
 `;

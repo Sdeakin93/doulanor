@@ -19,6 +19,9 @@ const Nav = () => {
             Contact
           </Link>
 
+          {/* <Link className="links" to="/portfolio">
+            Portfolio
+          </Link> */}
           <Link className="links" to="/services">
             Services
           </Link>

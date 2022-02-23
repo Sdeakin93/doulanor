@@ -18,7 +18,7 @@ body {
 .footer {
   flex-shrink: 0;
   color: black;
-  background-color: #ffe5d9;
+  background-color: #e5bd9d;
   max-width: 100%;
   text-align: center;
   overflow: hidden;
@@ -54,7 +54,7 @@ body {
 .nav {
   display: flex;
   max-width: 100%;
-  background-color: #f8edeb;
+  background-color: #e5bd9d;
   top: 0px;
   left: 0;
   right: 0;
@@ -342,4 +342,12 @@ input[type="submit"]:hover {
 .intro-text {
   display: block;
   text-align: center;
+}
+
+.buttons-carousel {
+  background-color: black;
+  border-radius: 33px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
 }
